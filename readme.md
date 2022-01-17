@@ -25,13 +25,14 @@ Esta API es **pública** por lo que puede darse que algún recurso no retorne lo
 
     Esta petición deberá enviar por _body_ un objeto que contenga los siguientes seis campos:
 
-    <div class="code">
-
-    <div>`{  
-
-    }`</div>
-
-    </div>
+                  {
+                      "username": "xxxxxx",
+                      "firstName": "xxxxxx",
+                      "lastName": "xxxxxx",
+                      "password": "xxxxxx",
+                      "country": "xxxxxx",
+                      "city": "xxxxxx"
+                  }
 
     El campo _id_ es auto generado por la API
 
@@ -39,25 +40,19 @@ Esta API es **pública** por lo que puede darse que algún recurso no retorne lo
 
     Esta petición deberá enviar por _body_ un objeto que contenga los siguientes campos:
 
-    <div class="code">
-
-    <div>`{  
-
-    }`</div>
-
-    </div>
+                  {
+                      "username": "xxxxxx",
+                      "password": "xxxxxx",
+                  }
 
 *   **POST** 📫 Envio Datos Mensaje 👉🏼 .../api/users/_username_/messages
 
     Esta petición deberá enviar por _body_ un objeto que contenga los siguientes campos:
 
-    <div class="code">
-
-    <div>`{  
-
-    }`</div>
-
-    </div>
+                  {
+                      "receiverId": "xxxxxx",
+                      "text": "xxxxxx",
+                  }
 
     El campo _senderId_ se obtiene automáticamente desde los params de la URL a través del _username_
 
