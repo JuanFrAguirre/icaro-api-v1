@@ -2,28 +2,10 @@
   "users": [
     {
       "id": "1",
-      "username": "juancito",
-      "firstName": "Juan Francisco",
-      "lastName": "Aguirre",
-      "password": "123123",
-      "country": "",
-      "city": ""
-    },
-    {
-      "id": "2",
-      "username": "virgi",
-      "firstName": "Virginia",
-      "lastName": "Frias",
-      "password": "123123",
-      "country": "",
-      "city": ""
-    },
-    {
-      "id": "3",
-      "username": "cecita",
-      "firstName": "Cecilia",
-      "lastName": "Arrue",
-      "password": "asdasd",
+      "username": "jor.asis",
+      "firstName": "Jorge",
+      "lastName": "Asis",
+      "password": "jor123",
       "country": "Argentina",
       "city": "Cordoba"
     }
@@ -31,39 +13,9 @@
   "messages": [
     {
       "id": "1",
-      "senderId": "2",
-      "receiverId": "1",
-      "text": "este es un nuevo mensaje de prueba"
-    },
-    {
-      "id": "2",
       "senderId": "1",
       "receiverId": "1",
-      "text": "este es un nuevo mensaje de prueba"
-    },
-    {
-      "id": "3",
-      "senderId": "1",
-      "receiverId": "1",
-      "text": "este es un nuevo mensaje de prueba"
-    },
-    {
-      "id": "4",
-      "senderId": "1",
-      "receiverId": "2",
-      "text": "este es un nuevo mensaje de prueba"
-    },
-    {
-      "id": "5",
-      "senderId": "1",
-      "receiverId": "2",
-      "text": "este es un nuevo mensaje de prueba"
-    },
-    {
-      "id": "6",
-      "senderId": "1",
-      "receiverId": "2",
-      "text": "este es un nuevo mensaje de prueba"
+      "text": "Mensaje de prueba de jor.asis a si mismo"
     }
   ]
 }
