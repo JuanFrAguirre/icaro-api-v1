@@ -6,16 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Icaro API - Trabajo Integrador</title>
     <link rel="stylesheet" href="/css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
-      <h1 class="blue">ICARO API</h1>
+      <h1>ICARO API v1</h1>
       <h3>Trabajo Integrador</h3>
       <p>
-        A continuación están los endpoints de los cuales se obtendrán los recursos para completar el Trabajo Integrador
-        de la Diplomatura. Esta API es pública por lo que puede darse que algún recurso (como los mensajes) retornen
-        nada, puesto que otra persona puede estar en simultáneo borrando algún recurso. Lo mismo podría pasar para la
-        carga de los mismos.
+        A continuación están los <i class="textItalic">endpoints</i> de los cuales se obtendrán los recursos para
+        completar el Trabajo Integrador de la Diplomatura. <br /><br />
+        Esta API es <b>pública</b> por lo que puede darse que algún recurso no retorne lo esperado, puesto que otra
+        persona puede estar en simultáneo borrando o agregando algún recurso.
       </p>
       <h3>Recursos</h3>
       <ul>
@@ -103,7 +109,7 @@
         </li>
       </ul>
       <br />
-      <h4>La url base es <a target="_blank" href="<%= url %>"><%= url %></a></h4>
+      <h4><a target="_blank" href="/api">Ésta</a> es la URL base</h4>
     </div>
   </body>
 </html>
