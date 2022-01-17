@@ -1,10 +1,3 @@
-Este proyecto es una API de ejemplo para los estudiantes de la Diplomatura en Programación Web Full Stack de Icaro.
-Ellos deberán replicar las funcionalidades provistas por la misma en sus propios proyectos para la entrega final de la Diplomatura.
-
-Toda la documentación está en la [página principal de la API](https://icaro-api-v1.herokuapp.com)
-
-<div class="container">
-
 # ICARO API v1
 
 ### Trabajo Integrador
@@ -25,14 +18,14 @@ Esta API es **pública** por lo que puede darse que algún recurso no retorne lo
 
     Esta petición deberá enviar por _body_ un objeto que contenga los siguientes seis campos:
 
-                  {
-                      "username": "xxxxxx",
-                      "firstName": "xxxxxx",
-                      "lastName": "xxxxxx",
-                      "password": "xxxxxx",
-                      "country": "xxxxxx",
-                      "city": "xxxxxx"
-                  }
+          {
+              "username": "xxxxxx",
+              "firstName": "xxxxxx",
+              "lastName": "xxxxxx",
+              "password": "xxxxxx",
+              "country": "xxxxxx",
+              "city": "xxxxxx"
+          }
 
     El campo _id_ es auto generado por la API
 
@@ -40,19 +33,19 @@ Esta API es **pública** por lo que puede darse que algún recurso no retorne lo
 
     Esta petición deberá enviar por _body_ un objeto que contenga los siguientes campos:
 
-                  {
-                      "username": "xxxxxx",
-                      "password": "xxxxxx",
-                  }
+          {
+              "username": "xxxxxx",
+              "password": "xxxxxx",
+          }
 
 *   **POST** 📫 Envio Datos Mensaje 👉🏼 .../api/users/_username_/messages
 
     Esta petición deberá enviar por _body_ un objeto que contenga los siguientes campos:
 
-                  {
-                      "receiverId": "xxxxxx",
-                      "text": "xxxxxx",
-                  }
+          {
+              "receiverId": "xxxxxx",
+              "text": "xxxxxx",
+          }
 
     El campo _senderId_ se obtiene automáticamente desde los params de la URL a través del _username_
 
