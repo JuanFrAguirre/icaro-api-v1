@@ -1,0 +1,38 @@
+html {
+  font-size: 120%;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+.green {
+  color: rgb(0, 150, 0);
+}
+.red {
+  color: red;
+}
+.blue {
+  color: rgb(0, 0, 200);
+}
+.gray {
+  color: rgb(90, 0, 150);
+  text-decoration: underline;
+}
+
+a {
+  color: #000;
+}
+a:hover {
+  color: rgb(0, 0, 200);
+}

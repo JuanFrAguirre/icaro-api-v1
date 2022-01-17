@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Icaro API - Trabajo Integrador</title>
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>ICARO API</h1>
+      <h3>Trabajo Integrador</h3>
+      <p>
+        A continuación están los endpoints de los cuales se obtendrán los recursos para completar el Trabajo Integrador
+        de la Diplomatura. Esta API es pública por lo que puede darse que algún recurso (como los mensajes) retornen
+        nada, puesto que otra persona puede estar en simultáneo borrando algún recurso. Lo mismo podría pasar para la
+        carga de los mismos.
+      </p>
+      <h3>Recursos</h3>
+      <ul>
+        <li>
+          <p><b class="green">GET</b> Listado Usuarios ➡ <a href="/api/users">.../api/users</a></p>
+        </li>
+        <li>
+          <p>
+            <b class="green">GET</b> Listado Mensajes Recibidos ➡ .../api/users/<i class="gray">username</i
+            >/messages/inbox
+          </p>
+        </li>
+        <li>
+          <p>
+            <b class="green">GET</b> Listado Mensajes Enviados ➡ .../api/users/<i class="gray">username</i
+            >/messages/sent
+          </p>
+        </li>
+        <li>
+          <p><b class="blue">POST</b> Envio Datos Register ➡ .../api/users</p>
+        </li>
+        <li>
+          <p><b class="blue">POST</b> Envio Datos Login ➡ .../api/login</p>
+        </li>
+        <li>
+          <p><b class="blue">POST</b> Envio Datos Mensaje ➡ .../api/users/<i class="gray">username</i>/messages</p>
+        </li>
+        <li>
+          <p><b class="red">DELETE</b> Borrado Mensaje por ID ➡ .../api/messages/<i class="gray">messageId</i></p>
+        </li>
+      </ul>
+      <br />
+      <h4>La url base es <a target="_blank" href="<%= url %>"><%= url %></a></h4>
+    </div>
+  </body>
+</html>

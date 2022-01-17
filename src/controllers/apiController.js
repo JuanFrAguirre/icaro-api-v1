@@ -1,7 +1,7 @@
 const utils = require('../fs/fsUtilities')
 
 const api = {
-  home: (req, res) => res.send('API works!'),
+  home: (req, res) => res.render('pages/index', { url: 'https://icaro-api-v1.herokuapp.com' }),
   // users
   getUsers: (req, res) => {
     res.send(utils.getAllData().users)
