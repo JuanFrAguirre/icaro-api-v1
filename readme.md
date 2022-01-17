@@ -2,6 +2,8 @@
 
 ### Trabajo Integrador
 
+Esta es la API que se ha creado para la **Diplomatura Universitaria en Programación Web Full Stack** de Icaro.
+
 A continuación están los _endpoints_ de los cuales se obtendrán los recursos para completar el Trabajo Integrador de la Diplomatura. 😎
 
 Esta API es **pública** por lo que puede darse que algún recurso no retorne lo esperado 🙅🏼, puesto que otra persona puede estar en simultáneo borrando o agregando algún recurso. 📚
