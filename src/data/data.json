@@ -2,12 +2,23 @@
   "users": [
     {
       "id": "1",
-      "username": "jor.asis",
-      "firstName": "Jorge",
-      "lastName": "Asis",
-      "password": "jor123",
-      "country": "Argentina",
-      "city": "Cordoba"
+      "username": "luke.sky",
+      "firstName": "Luke",
+      "lastName": "Skywalker",
+      "password": "lastjedi123",
+      "country": "Tatooine",
+      "city": "unkown",
+      "notDeletable": true
+    },
+    {
+      "id": "2",
+      "username": "chewie",
+      "firstName": "Chew",
+      "lastName": "Bacca",
+      "password": "rawwwr",
+      "country": "Kashyyyk",
+      "city": "unkown",
+      "notDeletable": true
     }
   ],
   "messages": [
@@ -15,7 +26,29 @@
       "id": "1",
       "senderId": "1",
       "receiverId": "1",
-      "text": "Mensaje de prueba de jor.asis a si mismo"
+      "text": "Mensaje de prueba de Luke Skywalker",
+      "notDeletable": true
+    },
+    {
+      "id": "2",
+      "senderId": "1",
+      "receiverId": "2",
+      "text": "Chewie, a dónde nos dirijimos?",
+      "notDeletable": true
+    },
+    {
+      "id": "3",
+      "senderId": "2",
+      "receiverId": "1",
+      "text": "Raaaawwwwrr",
+      "notDeletable": true
+    },
+    {
+      "id": "4",
+      "senderId": "1",
+      "receiverId": "2",
+      "text": "Muy bien, preparémonos para el salto al hiperespacio!",
+      "notDeletable": true
     }
   ]
 }

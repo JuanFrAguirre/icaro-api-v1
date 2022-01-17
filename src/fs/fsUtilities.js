@@ -62,6 +62,9 @@ const utilities = {
     return newData
   },
   deleteMessage: (id) => {
+    let message = getData().messages.find((x) => x.id === id)
+    if (!message) return 'Mensaje no encontrado. Revisa los parámetros o intenta con otro'
+    if (message.notDeletable) return 'Este mensaje no puede ser borrado. Intenta con otro'
     let newMessages = [...getData().messages.filter((x) => x.id !== id)]
     let newData = { ...getData(), messages: newMessages }
     writeJson(newData)
