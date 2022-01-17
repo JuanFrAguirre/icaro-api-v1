@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="container">
-      <h1>ICARO API</h1>
+      <h1 class="blue">ICARO API</h1>
       <h3>Trabajo Integrador</h3>
       <p>
         A continuación están los endpoints de los cuales se obtendrán los recursos para completar el Trabajo Integrador
@@ -36,12 +36,67 @@
         </li>
         <li>
           <p><b class="blue">POST</b> Envio Datos Register ➡ .../api/users</p>
+          <p>
+            Esta petición deberá enviar por <i class="textItalic">body</i> un objeto que contenga los siguientes seis
+            campos:
+          </p>
+          <div class="code">
+            <div>
+              <code>
+                { <br />
+                <ul>
+                  "username": "xxxxxx",<br />
+                  "firstName": "xxxxxx",<br />
+                  "lastName": "xxxxxx",<br />
+                  "password": "xxxxxx",<br />
+                  "country": "xxxxxx",<br />
+                  "city": "xxxxxx"
+                </ul>
+                }
+              </code>
+            </div>
+          </div>
+          <p>El campo <i class="textItalic">id</i> es auto generado por la API</p>
         </li>
         <li>
           <p><b class="blue">POST</b> Envio Datos Login ➡ .../api/login</p>
+          <p>
+            Esta petición deberá enviar por <i class="textItalic">body</i> un objeto que contenga los siguientes campos:
+          </p>
+          <div class="code">
+            <div>
+              <code>
+                { <br />
+                <ul>
+                  "username": "xxxxxx",<br />
+                  "password": "xxxxxx",<br />
+                </ul>
+                }
+              </code>
+            </div>
+          </div>
         </li>
         <li>
           <p><b class="blue">POST</b> Envio Datos Mensaje ➡ .../api/users/<i class="gray">username</i>/messages</p>
+          <p>
+            Esta petición deberá enviar por <i class="textItalic">body</i> un objeto que contenga los siguientes campos:
+          </p>
+          <div class="code">
+            <div>
+              <code>
+                { <br />
+                <ul>
+                  "receiverId": "xxxxxx",<br />
+                  "text": "xxxxxx"
+                </ul>
+                }
+              </code>
+            </div>
+          </div>
+          <p>
+            El campo <i class="textItalic">senderId</i> se obtiene automáticamente desde las queries de la URL a través
+            del <i class="textItalic">username</i>
+          </p>
         </li>
         <li>
           <p><b class="red">DELETE</b> Borrado Mensaje por ID ➡ .../api/messages/<i class="gray">messageId</i></p>

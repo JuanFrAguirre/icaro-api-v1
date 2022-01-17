@@ -12,8 +12,20 @@ h3 {
 p {
   text-align: justify;
 }
+.code {
+  display: flex;
+}
+.code > div {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  background: rgba(0, 0, 0, 0.05);
+  padding: 10px;
+}
+.code ul {
+  color: rgb(223, 88, 39);
+  padding-left: 20px;
+}
 .green {
-  color: rgb(0, 150, 0);
+  color: rgb(0, 160, 0);
 }
 .red {
   color: red;
@@ -22,7 +34,7 @@ p {
   color: rgb(0, 0, 200);
 }
 .gray {
-  color: rgb(90, 0, 150);
+  color: rgb(0, 0, 0, 0.5);
   text-decoration: underline;
 }
 a {
@@ -30,4 +42,7 @@ a {
 }
 a:hover {
   color: rgb(0, 0, 200);
+}
+.textItalic {
+  color: rgba(0, 0, 0, 0.5);
 }
