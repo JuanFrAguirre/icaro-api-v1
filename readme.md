@@ -53,4 +53,4 @@ Esta API es **pública** por lo que puede darse que algún recurso no retorne lo
 
 - **DELETE** 🗑 Borrado Mensaje por ID 👉🏼 .../api/messages/_messageId_
 
-#### [🏠 Ésta es la URL base](/api)
+#### [🏠 Ésta es la URL base](https://icaro-api-v1.herokuapp.com/api)
